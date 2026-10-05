@@ -18,6 +18,7 @@ class Zvire:
     def jdiNa(self, nMisto:str):
         self.misto = nMisto
         return f"Přesunul jsem se na {nMisto}. {self.kdeJsi()}"
+    
 
 class Pes(Zvire):
     def __init__(self, jmeno, vek, plemeno, misto = "bouda"):
